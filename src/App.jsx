@@ -104,11 +104,11 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://your-portfolio-site.com"
+                    href="https://www.instagram.com/pranav_1632_/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Portfolio
+                    Social
                   </a>
                 </li>
               </ul>
