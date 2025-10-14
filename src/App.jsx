@@ -36,6 +36,7 @@ function App() {
 
         {/* Personal Info */}
         <div className="bg-white bg-opacity-90 rounded-xl shadow-lg max-w-4xl mx-auto p-6 mb-8">
+          <h5 className='text-center font-thin font-extralight text-gray-400'>App is under Dev</h5>
           <h2 className="text-4xl font-semibold text-center mb-6">
             {language === 'en'
               ? 'Personal Info'
