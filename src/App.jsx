@@ -86,7 +86,7 @@ function App() {
               <ul className="list-disc ml-6 text-blue-600 underline space-y-1">
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/your-linkedin-id"
+                    href="https://www.linkedin.com/in/pranav-gaikwad-7a632b288/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -95,7 +95,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/your-github-id"
+                    href="https://github.com/Pranav1632"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
