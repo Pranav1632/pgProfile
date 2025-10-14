@@ -18,10 +18,10 @@ function App() {
           <button
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded shadow"
             onClick={() =>
-              setLanguage(language === 'en' ? 'hi' : language === 'hi' ? 'mr' : 'en')
+              setLanguage(language === 'en' ? 'mr' : language === 'mr' ? 'hi' : 'en')
             }
           >
-            Translate to {language === 'en' ? 'Hindi' : language === 'hi' ? 'Marathi' : 'English'}
+            Translate to {language === 'en' ? 'Marathi' : language === 'mr' ? 'Hindi' : 'English'}
           </button>
         </div>
 
@@ -53,7 +53,11 @@ function App() {
                   ? 'पूरा नाम:'
                   : 'पूर्ण नाव:'}
               </p>
-              <p className="text-gray-800 ml-2">Pranav Sachin Gaikwad</p>
+              <p className="text-gray-800 ml-2">{language === 'en'
+                  ? 'Pranav Sachin Gaikwad'
+                  : language === 'hi'
+                  ? 'प्राणव सचिन गायकवाड़'
+                  : 'प्रणव सचिन गायकवाड'}</p>
             </div>
             <div>
               <p className="font-bold text-lg text-gray-700">
@@ -63,7 +67,11 @@ function App() {
                   ? 'फ़ोन नंबर:'
                   : 'फोन नंबर:'}
               </p>
-              <p className="text-gray-800 ml-2">7499167820</p>
+              <p className="text-gray-800 ml-2">{language === 'en'
+                  ? '7499167820'
+                  : language === 'hi'
+                  ? '७४९९१६७८२०'
+                  : '७४९९१६७८२०'}</p>
             </div>
             <div>
               <p className="font-bold text-lg text-gray-700">
