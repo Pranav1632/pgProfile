@@ -166,10 +166,10 @@ function App() {
               </p>
               <p className="text-gray-800 ml-2">
                 {language === 'en'
-                  ? 'Second-year Information Technology student at AISSMS IOIT with strong foundations in Java, C++, and React.js. Passionate about building scalable web applications and mastering data structures. Seeking internship opportunities to apply and grow technical skills.'
+                  ? 'Second-year CS student at AISSMS IOIT with strong foundations in Java, C++, and React.js. Passionate about building scalable web applications and mastering data structures. Seeking internship opportunities to apply and grow technical skills.'
                   : language === 'hi'
-                  ? 'AISSMS IOIT में द्वितीय वर्ष का सूचना प्रौद्योगिकी छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में महारत हासिल करने के लिए उत्साही। तकनीकी कौशल को लागू करने और बढ़ाने के लिए इंटर्नशिप के अवसरों की तलाश में।'
-                  : 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा IT विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया. स्केलेबल वेब अ‍ॅप्लिकेशन तयार करण्यात आणि डेटा स्ट्रक्चर्स समजून घेण्यात रस. इंटर्नशिपद्वारे कौशल्य वाढवण्याची संधी शोधत आहे.'}
+                  ? 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में महारत हासिल करने के लिए उत्साही। तकनीकी कौशल को लागू करने और बढ़ाने के लिए इंटर्नशिप के अवसरों की तलाश में।'
+                  : 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया. स्केलेबल वेब अ‍ॅप्लिकेशन तयार करण्यात आणि डेटा स्ट्रक्चर्स समजून घेण्यात रस. इंटर्नशिपद्वारे कौशल्य वाढवण्याची संधी शोधत आहे.'}
               </p>
             </div>
           </div>
