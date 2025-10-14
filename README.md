@@ -5,6 +5,8 @@
 A responsive personal profile web app built with **React** and **Tailwind CSS**, featuring dynamic language switching between **English**, **Hindi**, and **Marathi** and other lang. will be added . Ideal for students, developers, or professionals showcasing their portfolio with regional language support.
 
 ---
+### 🔗Link
+https://pgpro.vercel.app
 
 ### 🚀 Features
 
@@ -25,7 +27,7 @@ A responsive personal profile web app built with **React** and **Tailwind CSS**,
 
 ---
 
-### 📸 Preview
+### 📸BG-Preview
 
 ![App Screenshot](https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-simon73-1323550.jpg&fm=jpg)
 
