@@ -1,16 +1,75 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--------------
+## 🌐 Multilingual React Personal Profile App 
 
-Currently, two official plugins are available:
+A responsive personal profile web app built with **React** and **Tailwind CSS**, featuring dynamic language switching between **English**, **Hindi**, and **Marathi** and other lang. will be added . Ideal for students, developers, or professionals showcasing their portfolio with regional language support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Clean, responsive UI with background image
+- 🌐 Language toggle: English ↔ Hindi ↔ Marathi
+- 📧 Hyperlinked email and social profiles
+- 🔗 Clickable LinkedIn, GitHub, and Portfolio links
+- 🎨 Tailwind CSS for styling
+- 🧩 Easy to expand with Skills, Projects, Resume download, etc.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Tech Stack
+
+- **React** (Vite)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+
+---
+
+### 📸 Preview
+
+![App Screenshot](https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-simon73-1323550.jpg&fm=jpg)
+
+---
+
+### 🛠 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Pranav1632/pgProfile.git
+cd pgProfile
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+### 🧪 Usage
+
+- Edit your personal info in `App.jsx`
+- Replace placeholder links with your actual LinkedIn, GitHub, and portfolio URLs
+- Customize language translations as needed
+- Add more sections like Skills, Projects, Resume, etc.
+
+---
+
+### 🌍 Language Support
+
+| Code | Language |
+|------|----------|
+| en   | English  |
+| hi   | Hindi    |
+| mr   | Marathi  |
+
+---
+
+### 📬 Contact
+
+For questions or suggestions, feel free to reach out at:  
+📧 [pranavgaikwad1632@gmail.com](mailto:pranavgaikwad1632@gmail.com)
+
+---
+
