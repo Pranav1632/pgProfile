@@ -78,10 +78,10 @@ function App() {
             <div>
               <p className="font-bold text-lg text-gray-700">
                 {language === 'en'
-                  ? 'LinkedIn / GitHub / Portfolio:'
+                  ? 'LinkedIn / GitHub / Social:'
                   : language === 'hi'
-                  ? 'लिंक्डइन / गिटहब / पोर्टफोलियो:'
-                  : 'लिंक्डइन / गिटहब / पोर्टफोलिओ:'}
+                  ? 'लिंक्डइन / गिटहब / सोशल:'
+                  : 'लिंक्डइन / गिटहब / सोशल:'}
               </p>
               <ul className="list-disc ml-6 text-blue-600 underline space-y-1">
                 <li>
