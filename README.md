@@ -2,7 +2,7 @@
 --------------
 ## 🌐 Multilingual React Personal Profile App 
 
-A responsive personal profile web app built with **React** and **Tailwind CSS**, featuring dynamic language switching between **English**, **Hindi**, and **Marathi** and other lang. will be added . Ideal for students, developers, or professionals showcasing their portfolio with regional language support.
+A  personal profile web app built with **React** and **Tailwind CSS**, featuring dynamic language switching between **English**, **Hindi**, and **Marathi** and other lang. will be added . Ideal for students, developers, or professionals showcasing their portfolio with regional language support.
 
 ---
 ### 🔗Link
