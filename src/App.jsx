@@ -119,6 +119,15 @@ function App() {
                     Social
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://drive.google.com/drive/folders/1KFz_qReVn0TLY4bS-pZl1G-ARGRnHzE2?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
