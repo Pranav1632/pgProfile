@@ -121,7 +121,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://drive.google.com/drive/folders/1KFz_qReVn0TLY4bS-pZl1G-ARGRnHzE2?usp=sharing"
+                    href="https://drive.google.com/file/d/1-3y8YJbX5nUu0K3lZ6YI3b5F2Zl1J6Xh/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
