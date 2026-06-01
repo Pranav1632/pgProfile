@@ -119,6 +119,15 @@ function App() {
                     Social
                   </a>
                 </li>
+                 <li>
+                  <a
+                    href="https://x.com/PranavSG3216/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    X.COM (twitter)
+                  </a>
+                </li>
                 <li>
                   <a
                     href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhANf01A2yCEZBzI0rkt1adbEMcZ7uiGJjOAjXqd0_g&s"
