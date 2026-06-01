@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Code2, BookOpen } from 'lucide-react'
 
 function App() {
   const [language, setLanguage] = useState('en') // "en", "hi", "mr"
@@ -50,7 +49,7 @@ function App() {
       degreeText: 'कंप्यूटर साइंस में इंजीनियरिंग स्नातक',
       collegeText: 'AISSMS IOIT, पुणे',
       yearText: '2024–2028',
-      bioText: 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाएं सीखने के लिए उत्सुक।',
+      bioText: 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में महारत हासिल करने के लिए भावुक।',
     },
     mr: {
       heading: 'माझं प्रोफाइल',
@@ -73,17 +72,17 @@ function App() {
       degreeText: 'कॉम्प्युटर सायन्स मध्ये अभियांत्रिकी पदवी',
       collegeText: 'AISSMS IOIT, पुणे',
       yearText: '2024–2028',
-      bioText: 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाय़ा सह। स्केलेबल वेब ऍप्लिकेशन बनवणे आणि डेटा स्ट्रक्चर्स आत्मसात करण्यास उत्सुक।',
+      bioText: 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया आहे। स्केलेबल वेब अ‍ॅप्लिकेशन तयार करण्यात आणि डेटा स्ट्रक्चर्सचा जाण लागवण्यात आवेग आहे।',
     },
   }
 
   const t = translations[language]
 
   const socialLinks = [
-    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/pranav-gaikwad-7a632b288/', icon: Linkedin, color: 'hover:text-blue-600' },
-    { name: 'GitHub', url: 'https://github.com/Pranav1632', icon: Github, color: 'hover:text-gray-800' },
-    { name: 'X (Twitter)', url: 'https://x.com/PranavSG32', icon: () => <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.6l-5.165-6.75-5.913 6.75h-3.31l7.73-8.835L2.56 2.25h6.74l4.973 6.572 5.471-6.572zM16.962 20.766h1.834L7.144 3.88H5.378l11.584 16.886z"/></svg>, color: 'hover:text-black' },
-    { name: 'Email', url: 'mailto:pranavgaikwad1632@gmail.com', icon: Mail, color: 'hover:text-red-600' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/pranav-gaikwad-7a632b288/', icon: '💼', color: 'hover:text-blue-600' },
+    { name: 'GitHub', url: 'https://github.com/Pranav1632', icon: '🐙', color: 'hover:text-gray-800' },
+    { name: 'X (Twitter)', url: 'https://x.com/PranavSG32', icon: '𝕏', color: 'hover:text-black' },
+    { name: 'Email', url: 'mailto:pranavgaikwad1632@gmail.com', icon: '✉️', color: 'hover:text-red-600' },
   ]
 
   return (
@@ -103,11 +102,11 @@ function App() {
           {/* Header with Language Toggle */}
           <div className="flex justify-between items-center mb-12">
             <div className="text-white font-bold text-2xl flex items-center gap-2">
-              <Code2 className="w-8 h-8" />
+              💻
               Pranav
             </div>
             <button
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
               onClick={() =>
                 setLanguage(language === 'en' ? 'mr' : language === 'mr' ? 'hi' : 'en')
               }
@@ -137,7 +136,6 @@ function App() {
               {/* Quick Contact Icons */}
               <div className="flex justify-center gap-4 mb-8">
                 {socialLinks.map((link) => {
-                  const IconComponent = link.icon
                   return (
                     <a
                       key={link.name}
@@ -145,9 +143,9 @@ function App() {
                       target="_blank"
                       rel="noopener noreferrer"
                       title={link.name}
-                      className={`text-gray-600 ${link.color} transition-all duration-300 transform hover:scale-125 p-3 rounded-full bg-gray-100 hover:bg-gray-200`}
+                      className={`text-2xl ${link.color} transition-all duration-300 transform hover:scale-125 p-3 rounded-full bg-gray-100 hover:bg-gray-200`}
                     >
-                      <IconComponent />
+                      {link.icon}
                     </a>
                   )
                 })}
@@ -165,7 +163,7 @@ function App() {
 
                 {/* Phone Number */}
                 <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-                  <Phone className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                  <div className="text-2xl text-green-600">📱</div>
                   <div className="flex-1">
                     <p className="font-bold text-lg text-gray-700">{t.phoneNumber}</p>
                     <p className="text-gray-800 text-lg font-semibold">{t.phone}</p>
@@ -174,7 +172,7 @@ function App() {
 
                 {/* Email */}
                 <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-                  <Mail className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
+                  <div className="text-2xl text-red-600">✉️</div>
                   <div className="flex-1">
                     <p className="font-bold text-lg text-gray-700">{t.email}</p>
                     <a
@@ -182,14 +180,14 @@ function App() {
                       className="text-blue-600 font-semibold hover:text-blue-800 flex items-center gap-2"
                     >
                       pranavgaikwad1632@gmail.com
-                      <ExternalLink className="w-4 h-4" />
+                      →
                     </a>
                   </div>
                 </div>
 
                 {/* Location */}
                 <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-                  <MapPin className="w-6 h-6 text-red-500 flex-shrink-0 mt-1" />
+                  <div className="text-2xl text-red-500">📍</div>
                   <div className="flex-1">
                     <p className="font-bold text-lg text-gray-700">{t.location}</p>
                     <p className="text-gray-800 text-lg font-semibold">{t.locationText}</p>
@@ -204,7 +202,7 @@ function App() {
             <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-8 border border-white/20 hover:shadow-3xl transition-all duration-300">
               <div className="text-center mb-6 pb-6 border-b-2 border-gray-200">
                 <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent flex items-center justify-center gap-3">
-                  <BookOpen className="w-8 h-8 text-purple-600" />
+                  📚
                   {t.education}
                 </h2>
               </div>
