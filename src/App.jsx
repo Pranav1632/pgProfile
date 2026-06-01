@@ -49,7 +49,7 @@ function App() {
       degreeText: 'कंप्यूटर साइंस में इंजीनियरिंग स्नातक',
       collegeText: 'AISSMS IOIT, पुणे',
       yearText: '2024–2028',
-      bioText: 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में महारत हासिल करने के प्रति उत्सुक।',
+      bioText: 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में माहिर होने के लिए उत्सुक।',
     },
     mr: {
       heading: 'माझं प्रोफाइल',
@@ -72,7 +72,7 @@ function App() {
       degreeText: 'कॉम्प्युटर सायन्स मध्ये अभियांत्रिकी पदवी',
       collegeText: 'AISSMS IOIT, पुणे',
       yearText: '2024–2028',
-      bioText: 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया आहे। स्केलेबल वेब अनुप्रयोग तयार करण्यास आणि डेटा संरचना आत्मसात करण्यास उत्सुक।',
+      bioText: 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया आहे। स्केलेबल वेब अ‍ॅप्लिकेशन तयार करणे आणि डेटा संरचना आत्मसात करण्यात आवेग आहे।',
     },
   }
 
@@ -81,7 +81,7 @@ function App() {
   const socialLinks = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/pranav-gaikwad-7a632b288/', icon: '💼', color: 'hover:text-blue-600' },
     { name: 'GitHub', url: 'https://github.com/Pranav1632', icon: '🐙', color: 'hover:text-gray-800' },
-    { name: 'X (Twitter)', url: 'https://x.com/PranavSG32', icon: '𝕏', color: 'hover:text-black' },
+    { name: 'X (Twitter)', url: 'https://x.com/PranavSG3216', icon: '𝕏', color: 'hover:text-black' },
     { name: 'Email', url: 'mailto:pranavgaikwad1632@gmail.com', icon: '✉️', color: 'hover:text-red-600' },
   ]
 
