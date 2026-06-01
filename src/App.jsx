@@ -49,7 +49,7 @@ function App() {
       degreeText: 'कंप्यूटर साइंस में इंजीनियरिंग स्नातक',
       collegeText: 'AISSMS IOIT, पुणे',
       yearText: '2024–2028',
-      bioText: 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में महारत हासिल करने के लिए भावुक।',
+      bioText: 'AISSMS IOIT में द्वितीय वर्ष का CS छात्र, Java, C++ और React.js में मजबूत नींव के साथ। स्केलेबल वेब एप्लिकेशन बनाने और डेटा संरचनाओं में महारत हासिल करने के प्रति उत्सुक।',
     },
     mr: {
       heading: 'माझं प्रोफाइल',
@@ -72,7 +72,7 @@ function App() {
       degreeText: 'कॉम्प्युटर सायन्स मध्ये अभियांत्रिकी पदवी',
       collegeText: 'AISSMS IOIT, पुणे',
       yearText: '2024–2028',
-      bioText: 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया आहे। स्केलेबल वेब अ‍ॅप्लिकेशन तयार करण्यात आणि डेटा स्ट्रक्चर्सचा जाण लागवण्यात आवेग आहे।',
+      bioText: 'AISSMS IOIT मध्ये दुसऱ्या वर्षाचा CS विद्यार्थी, Java, C++ आणि React.js मध्ये मजबूत पाया आहे। स्केलेबल वेब अनुप्रयोग तयार करण्यास आणि डेटा संरचना आत्मसात करण्यास उत्सुक।',
     },
   }
 
@@ -103,7 +103,6 @@ function App() {
           <div className="flex justify-between items-center mb-12">
             <div className="text-white font-bold text-2xl flex items-center gap-2">
               💻
-              Pranav
             </div>
             <button
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
@@ -133,8 +132,8 @@ function App() {
                 </h2>
               </div>
 
-              {/* Quick Contact Icons */}
-              <div className="flex justify-center gap-4 mb-8">
+              {/* Quick Contact Icons with Names */}
+              <div className="flex justify-center gap-4 mb-8 flex-wrap">
                 {socialLinks.map((link) => {
                   return (
                     <a
@@ -143,9 +142,10 @@ function App() {
                       target="_blank"
                       rel="noopener noreferrer"
                       title={link.name}
-                      className={`text-2xl ${link.color} transition-all duration-300 transform hover:scale-125 p-3 rounded-full bg-gray-100 hover:bg-gray-200`}
+                      className={`flex flex-col items-center gap-1 ${link.color} transition-all duration-300 transform hover:scale-110 p-3 rounded-lg bg-gray-100 hover:bg-gray-200`}
                     >
-                      {link.icon}
+                      <span className="text-2xl">{link.icon}</span>
+                      <span className="text-xs font-semibold text-gray-700">{link.name}</span>
                     </a>
                   )
                 })}
