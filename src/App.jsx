@@ -130,7 +130,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhANf01A2yCEZBzI0rkt1adbEMcZ7uiGJjOAjXqd0_g&s"
+                    href="https://drive.google.com/file/d/1UV_flYrSJn1scwti7xKUyTx89MIZQWjH/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
